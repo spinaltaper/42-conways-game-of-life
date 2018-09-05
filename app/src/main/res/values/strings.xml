@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">gameOfLife</string>
+    <string name="tick">tick</string>
+    <string name="clear">clear</string>
+</resources>
