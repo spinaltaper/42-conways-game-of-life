@@ -4,48 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/layout"
     tools:context=".MainActivity">
+
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/topText"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Exists"/>
-
-    <ImageView
-        android:id="@+id/canvas"
-        android:scaleType="fitCenter"
-        android:adjustViewBounds="true"
-        android:padding="10sp"
-        app:layout_constraintBottom_toTopOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:text="existsInConstraint"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_height="0sp"
-        android:layout_width="0sp"/>
-    <LinearLayout
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:id="@+id/buttons"
-        android:orientation="horizontal"
-        app:layout_constraintVertical_chainStyle="spread"
-        app:layout_constraintBottom_toBottomOf="@+id/canvas">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Exists"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/tick"
-            android:textSize="40sp"
-            android:text="@string/tick"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/clear"
-            android:textSize="40sp"
-            android:text="@string/clear"/>
-    </LinearLayout>
-
+        android:id="@+id/canvasView"
+        app:layout_constraintBottom_toTopOf="@id/topText"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tick"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset"/>
 </android.support.constraint.ConstraintLayout>

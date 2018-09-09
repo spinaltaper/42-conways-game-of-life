@@ -1,4 +1,4 @@
-package com.example.gameoflife;
+package com.example.panos.a42_conways_game_of_life;
 
 public class Grid {
     boolean[][] gridData = new boolean[100][100];

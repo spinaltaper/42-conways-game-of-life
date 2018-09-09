@@ -1,4 +1,4 @@
-package com.example.gameoflife;
+package com.example.panos.a42_conways_game_of_life;
 
 import org.junit.Test;
 

@@ -1,6 +1,3 @@
 <resources>
-    <string name="app_name">gameOfLife</string>
-    <string name="tick">tick</string>
-    <string name="clear">clear</string>
-    <string name="Exists">Exists</string>
+    <string name="app_name">42-conways-game-of-life</string>
 </resources>

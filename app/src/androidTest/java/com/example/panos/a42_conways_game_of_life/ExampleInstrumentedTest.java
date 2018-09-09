@@ -1,4 +1,4 @@
-package com.example.gameoflife;
+package com.example.panos.a42_conways_game_of_life;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.gameoflife", appContext.getPackageName());
+        assertEquals("com.example.panos.a42_conways_game_of_life", appContext.getPackageName());
     }
 }
